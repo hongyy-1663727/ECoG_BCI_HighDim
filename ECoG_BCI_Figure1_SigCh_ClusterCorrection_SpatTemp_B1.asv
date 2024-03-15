@@ -802,7 +802,7 @@ end
 figHandles = findobj('Type', 'figure');
 
 % Specify the directory where you want to save the figures
-saveDir = 'F:\ECoGDataAnalysis\B1ImaginedDaqFigureBeta\new';
+saveDir = 'F:\ECoGDataAnalysis\B1ImaginedDaqFigure\new';
 if ~exist(saveDir, 'dir')
     mkdir(saveDir)
 end

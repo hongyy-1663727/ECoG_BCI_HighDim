@@ -2,8 +2,8 @@
 
 
 dirn=pwd;
-addpath('C:\Users\nikic\Documents\MATLAB\ctmr_gauss_plot_April2016\ctmr_gauss_plot_April2016')
-cd('C:\Users\nikic\Documents\MATLAB\ctmr_gauss_plot_April2016\ctmr_gauss_plot_April2016')
+addpath('F:\ECoGDataAnalysis\B1Grid')
+cd('F:\ECoGDataAnalysis\B1Grid')
 load('BRAVO1_lh_pial')
 load('BRAVO1_elecs_all')
 
@@ -21,7 +21,7 @@ cd(dirn)
 
 
 % plotting by ROI
-addpath('C:\Users\nikic\Documents\MATLAB\DrosteEffect-BrewerMap-5b84f95')
+addpath('F:\ECoGDataAnalysis\B1Grid')
 figure
 c_h = ctmr_gauss_plot(cortex,[0 0 0],0,'lh',1,1,1);
 set(gcf,'Color','w')
